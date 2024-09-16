@@ -41,12 +41,25 @@
   <!-- ======= Header ======= -->
   <header id="header" class="header d-flex align-items-center fixed-top">
     <div class="container-fluid d-flex align-items-center justify-content-between">
-
-      <a href="index.html" class="logo d-flex align-items-center  me-auto me-lg-0">
-        <!-- Uncomment the line below if you also wish to use an image logo -->
-        <!-- <img src="assets/img/logo.png" alt=""> -->
-        <i class="bi bi-camera"></i>
-        <h1>PhotoFolio</h1>
+      <!--href="index.html"-->
+      <a  class="logo d-flex align-items-center  me-auto me-lg-0">
+				<!-- Google Calendar Appointment Scheduling begin -->
+		<link href="https://calendar.google.com/calendar/scheduling-button-script.css" rel="stylesheet">
+		<script src="https://calendar.google.com/calendar/scheduling-button-script.js" async></script>
+		<script>
+		(function() {
+		  var target = document.currentScript;
+		  window.addEventListener('load', function() {
+			calendar.schedulingButton.load({
+			  url: 'https://calendar.google.com/calendar/appointments/schedules/AcZssZ1YKCFYHg60bjOYobyBLIazOvMq4VBSmwSDbV8H3Re_6KF9Ktpf6WGbzN6Gl9Ix8hrH0S0OAoEN?gv=true',
+			  color: '#27A776',
+			  label: 'Book an appointment',
+			  target,
+			});
+		  });
+		})();
+		</script>
+		<!-- end Google Calendar Appointment Scheduling -->
       </a>
 
       <nav id="navbar" class="navbar">
@@ -70,23 +83,6 @@
       </nav><!-- .navbar -->
 
       <div class="header-social-links">
-				<!-- Google Calendar Appointment Scheduling begin -->
-		<link href="https://calendar.google.com/calendar/scheduling-button-script.css" rel="stylesheet">
-		<script src="https://calendar.google.com/calendar/scheduling-button-script.js" async></script>
-		<script>
-		(function() {
-		  var target = document.currentScript;
-		  window.addEventListener('load', function() {
-			calendar.schedulingButton.load({
-			  url: 'https://calendar.google.com/calendar/appointments/schedules/AcZssZ1YKCFYHg60bjOYobyBLIazOvMq4VBSmwSDbV8H3Re_6KF9Ktpf6WGbzN6Gl9Ix8hrH0S0OAoEN?gv=true',
-			  color: '#27A776',
-			  label: 'Book an appointment',
-			  target,
-			});
-		  });
-		})();
-		</script>
-		<!-- end Google Calendar Appointment Scheduling -->
         <a href="https://www.facebook.com/switchstarbase" class="facebook"><i class="bi bi-facebook"></i></a>
         <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
       </div>
