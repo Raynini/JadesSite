@@ -75,6 +75,17 @@ h6 {
   background: #2cbc85;
 }
 
+/* For all text elements */
+.hover-text:hover {
+  cursor: url('https://emojicdn.elk.sh/%F0%9F%93%B7'), auto;
+}
+
+/* For all buttons */
+button:hover {
+  cursor: url('https://emojicdn.elk.sh/%F0%9F%93%B7'), auto;
+}
+
+
 /*--------------------------------------------------------------
 # Sections & Section Header
 --------------------------------------------------------------*/
